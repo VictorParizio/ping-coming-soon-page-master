@@ -1,0 +1,7 @@
+:root {
+    --button: hsl(223, 87%, 63%);
+    --input: hsl(223, 100%, 88%);
+    --destaque: hsl(354, 100%, 66%);
+    --text: hsl(0, 0%, 59%);
+    --contraste: hsl(209, 33%, 12%);
+}

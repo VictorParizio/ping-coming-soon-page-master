@@ -1,0 +1,16 @@
+.records.invalido .campo {
+    border: solid 1px var(--destaque);
+}
+
+.records .err{
+    display: none;
+}
+
+.records.invalido .err {
+    position: absolute;
+    left: 20%;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: var(--destaque);
+    display: block;
+}

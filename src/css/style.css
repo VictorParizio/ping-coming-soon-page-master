@@ -1,0 +1,115 @@
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin: 40px;
+    width: 50px;
+}
+
+.title {
+    font-size: 2rem;
+    color: var(--contraste);
+}
+
+.title span {
+    font-weight: 300;
+    color: var(--text);
+}
+
+.sub-title {
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--contraste);
+}
+
+.records{
+    margin: 28px 0;
+    width: 260px;
+    position: relative;
+}
+
+.campo{
+    border: solid 1px var(--input);
+    color: var(--text);
+}
+
+.campo:focus,
+.submit:focus{
+    outline: 0;
+}
+
+.campo::placeholder{
+    color: var(--input);
+}
+
+.campo,
+.submit {
+    height: 36px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.submit{
+    margin-top: 24px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--button);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(79, 125, 243, 0.4);
+    transition: 0.2s ease-in-out;
+}
+
+.submit:hover{
+    opacity: 0.8;
+}
+
+.dashboard {
+    width: 300px;
+}
+
+.midias .fab{
+    font-size: 1.4rem;
+    color: var(--button);
+    margin: 40px 4px 20px;
+    border: solid 1px var(--input);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 7px 8px;
+    display: inline-flex;
+}
+
+.midias .fab.fa-facebook-f{
+    padding: 7px 10px;
+}
+
+.midias .fab:hover{
+    background-color: var(--button);
+    border: solid 1px var(--button);
+    color: #fff;
+}
+
+/* ----------------------- */
+
+.attribution {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--text);
+}
+
+.attribution a {
+    font-weight: 600;
+    color: var(--button);
+    transition: 0.2s ease-in-out;
+}
+
+.attribution a:hover {
+    color: var(--input);
+}

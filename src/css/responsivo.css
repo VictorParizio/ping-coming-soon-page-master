@@ -1,0 +1,44 @@
+@media(min-width: 670px) {
+    main {
+        justify-content: center;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .title {
+        font-size: 3.8rem;
+    }
+
+    .sub-title {
+        margin-top: 10px;
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+
+    .records {
+        margin: 28px;
+        width: 520px;
+    }
+
+    .campo,
+    .submit {
+        height: 48px;
+        width: 66%;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0 20px;
+    }
+
+    .submit {
+        margin-top: 0;
+        width: 30%;
+        margin-left: 14px;
+    }
+
+    .dashboard {
+        width: 520px;
+    }
+}
